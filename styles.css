@@ -1,0 +1,29 @@
+:root
+{
+    --color-primario: teal;
+    --color-secundario: pink;
+}
+body {
+    font-family: "Exo 2", sans-serif;
+    height: 100vh;
+    background: #6170BA;
+    background: linear-gradient(130deg, #6170BA, rgba(126, 134, 171, 100) 45%, rgba(126, 134, 171, 100) 100%);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Inter", sans-serif;
+    color: vaer(--color-secundario);
+    text-decoration: underline wavy 3px darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 7.5;
+
+}
